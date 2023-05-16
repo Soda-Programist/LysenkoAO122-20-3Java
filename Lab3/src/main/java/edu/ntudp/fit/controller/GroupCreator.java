@@ -1,12 +1,9 @@
 package edu.ntudp.fit.controller;
 
-import edu.ntudp.fit.model.Department;
 import edu.ntudp.fit.model.Group;
-import edu.ntudp.fit.model.Structure;
 import edu.ntudp.fit.model.Student;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class GroupCreator {
     public int Quantity;

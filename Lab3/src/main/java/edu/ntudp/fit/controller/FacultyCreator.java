@@ -2,7 +2,6 @@ package edu.ntudp.fit.controller;
 
 import edu.ntudp.fit.model.Department;
 import edu.ntudp.fit.model.Faculty;
-import edu.ntudp.fit.model.Group;
 
 import java.util.ArrayList;
 

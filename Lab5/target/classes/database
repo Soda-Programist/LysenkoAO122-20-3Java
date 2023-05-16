@@ -1,0 +1,19 @@
+-- Table: public.students
+
+-- DROP TABLE IF EXISTS public.students;
+
+CREATE TABLE IF NOT EXISTS public.students
+(
+    "ID" integer NOT NULL,
+    "Name" character varying COLLATE pg_catalog."default",
+    "Surname" character varying COLLATE pg_catalog."default",
+    "ByFather" character varying COLLATE pg_catalog."default",
+    "Birthday" date,
+    "RecordBook" integer,
+    CONSTRAINT students_pkey PRIMARY KEY ("ID")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.students
+    OWNER to postgres;
